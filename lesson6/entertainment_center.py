@@ -43,4 +43,11 @@ hunger_games = media.Movie(
 
 movies = [toy_story, avatar, school_of_rock, ratatouille, midnight_in_paris,
           hunger_games]
-fresh_tomatoes.open_movies_page(movies)
+# creates movie website
+#fresh_tomatoes.open_movies_page(movies)
+# print class documentation
+print(media.Movie.__doc__)
+# print class name
+print(media.Movie.__name__)
+# print module where class was defined
+print(media.Movie.__module__)
